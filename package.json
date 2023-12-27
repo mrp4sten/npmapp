@@ -4,17 +4,17 @@
   "description": "application to learn about npm package manager",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Mauricio Pasten",
   "license": "MIT",
-  "dependencies": {
-    "lodash": "^4.17.21"
-  },
   "devDependencies": {
     "standard": "^17.1.0"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"
   }
 }
